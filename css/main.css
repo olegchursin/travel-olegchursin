@@ -1,0 +1,570 @@
+/*Primary Color: #e52e25*/
+
+body {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.fb-page-plugin {
+    margin: 20px 0 100px;
+}
+
+.footer-logo {
+    margin: 20px 0;
+}
+
+.blue-text {
+    color: #e52e25;
+}
+
+.mdl-chip {
+    margin-top: 20px;
+    background-color: #e52e25;
+}
+
+.mdl-chip__text {
+    color: #fff;
+}
+
+.mdl-button--fab .material-icons {
+  color: #fff;
+}
+
+a img {
+    border: 0px;
+}
+
+a {
+    color: #e52e25;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+::-moz-selection {
+    background-color: #e52e25;
+    color: #fff;
+}
+
+::selection {
+    background-color: #e52e25;
+    color: #fff;
+}
+
+.travel-search-box .mdl-textfield__input {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.travel-header .mdl-menu__container {
+    z-index: 50;
+    margin: 0 !important;
+}
+
+.mdl-textfield--expandable {
+    width: auto;
+}
+
+.travel-fab {
+    position: absolute;
+    right: 20%;
+    bottom: -26px;
+    z-index: 3;
+    background: #e52e25 !important;
+    color: black !important;
+}
+
+.travel-mobile-title {
+    display: none !important;
+}
+
+.travel-logo-image {
+    height: 28px;
+    width: 140px;
+    padding-top: 3px;
+}
+
+.travel-logo-image-full {
+    height: auto;
+    width: 420px;
+}
+
+.travel-header {
+    overflow: visible;
+    background-color: white;
+}
+
+.travel-header .material-icons {
+    color: #767777 !important;
+}
+
+.travel-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+}
+
+.travel-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.travel-navigation-container {
+    direction: rtl;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.travel-navigation {
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 800px;
+}
+
+.travel-search-box.is-focused + .travel-navigation-container {
+    opacity: 0;
+    width: 100px;
+}
+
+.travel-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+}
+
+.travel-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #e52e25;
+}
+
+.travel-search-box {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.travel-more-button {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+.travel-drawer {
+    border-right: none;
+}
+
+.travel-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+}
+
+.travel-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+}
+
+.travel-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #e52e25;
+}
+
+.travel-drawer .mdl-layout-title {
+    position: relative;
+    background: #e52e25;
+    height: 160px;
+}
+
+.travel-drawer .travel-logo-image {
+    position: absolute;
+    bottom: 16px;
+}
+
+.travel-intro-section {
+    position: relative;
+    height: 600px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-intro-web-2.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.logo-font {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1;
+    color: #767777;
+    font-weight: 500;
+}
+
+.travel-slogan {
+    font-size: 60px;
+    padding-top: 160px;
+}
+
+.travel-sub-slogan {
+    font-size: 21px;
+    padding-top: 24px;
+}
+
+.travel-create-character {
+    font-size: 21px;
+    padding-top: 400px;
+}
+
+.travel-create-character a {
+    text-decoration: none;
+    color: #767777;
+    font-weight: 300;
+}
+
+.travel-screen-section {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.travel-screens {
+    text-align: right;
+    width: 100%;
+    padding-top: 80px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.travel-screen {
+    text-align: center;
+}
+
+.travel-screen .travel-link {
+    margin-top: 16px;
+    display: block;
+    z-index: 2;
+}
+
+.travel-image-link {
+    text-decoration: none;
+}
+
+.travel-contact {
+    display: inline-block;
+    width: 160px;
+    margin-right: 32px;
+}
+
+.travel-contact .travel-screen-image {
+    width: 40%;
+    z-index: 1;
+}
+
+.travel-phone {
+    display: inline-block;
+    width: 64px;
+    margin-right: 48px;
+}
+
+.travel-phone .travel-screen-image {
+    width: 100%;
+    z-index: 1;
+}
+
+.travel-tablet {
+    display: inline-block;
+    width: 110px;
+    margin-right: 64px;
+}
+
+.travel-tablet .travel-screen-image {
+    width: 100%;
+    z-index: 1;
+}
+
+.travel-tablet .travel-link {
+    display: block;
+    z-index: 2;
+}
+
+.travel-gallery {
+    display: inline-block;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.travel-gallery .travel-screen-image {
+    width: 100%;
+    z-index: 1;
+}
+
+.travel-auto {
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+}
+
+.travel-auto .travel-screen-image {
+    display: block;
+    height: 300px;
+    z-index: 1;
+}
+
+.travel-contact-section-index {
+    position: relative;
+    background: url('../images/oleg-chursin-yosemite-valley-el-capitan-001-c.jpg') center top no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.travel-contact-section {
+    position: relative;
+    background: url('../images/oleg-chursin-travel-photography-contact.jpg') center top no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.travel-contact-band {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #37474f;
+}
+
+.travel-contact-band-text {
+    max-width: 800px;
+    margin-left: 25%;
+    padding: 24px;
+    text-align: left;
+    color: white;
+}
+
+.travel-contact-band-text p {
+    padding-top: 8px;
+}
+
+.travel-faq-section {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-faq-2.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-jj {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-JJ-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-mm {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-MM-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-ra {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-RA-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-RD {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-RD-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-TM {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-TM-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.header-img-SM {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('../images/oleg-chursin-travel-photography-SM-header.jpg') center 30% no-repeat;
+    background-size: cover;
+}
+
+.gallery-individual {
+    margin: 20px 0;
+}
+
+.gallery-individual-img {
+    padding: 2px 0;
+    width: 90%;
+    max-width: 800px;
+}
+
+.travel-link {
+    text-decoration: none;
+    color: #e52e25 !important;
+}
+
+.travel-link:hover {
+    color: #00ACC1 !important;
+}
+
+.travel-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.travel-alt-link {
+    text-decoration: none;
+    color: #e52e25 !important;
+    font-size: 16px;
+}
+
+.travel-alt-link:hover {
+    color: #00ACC1 !important;
+}
+
+.travel-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.travel-about-section {
+    text-align: center;
+}
+
+.travel-about-section-text {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 16px 0 16px;
+}
+
+.travel-about-section-text p {
+    padding-top: 16px;
+}
+
+.travel-about-section-image {
+    background: url('../images/oleg-chursin-travel-photography-footer.jpg') center top no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.travel-more-section {
+    padding: 80px 0;
+    max-width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.travel-more-section .travel-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+}
+
+.travel-footer {
+    background-color: #fafafa;
+    position: relative;
+}
+
+.travel-footer a:hover {
+    color: #e52e25;
+}
+
+.travel-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+}
+
+.travel-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+}
+
+.travel-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+}
+
+.travel-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+}
+
+.travel-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.travel-footer--social-icon {
+    width: 40px;
+    height: auto;
+}
+
+.travel-link-menu:hover {
+    cursor: pointer;
+}
+
+.travel-text-primary {
+    color: #e52e25;
+}
+
+@media (max-width:900px) {
+    .travel-navigation-container {
+        display: none;
+    }
+    .travel-title {
+        display: none !important;
+    }
+    .travel-mobile-title {
+        display: block !important;
+        position: absolute;
+        left: calc(50% - 70px);
+        top: 12px;
+        transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .travel.travel-search-box.is-focused ~ .travel-mobile-title,
+    .travel-search-box.is-focused + .travel-navigation-container + .travel-mobile-title {
+        opacity: 0;
+    }
+    .travel-search-box.is-focused {
+        width: calc(100% - 48px);
+    }
+    .travel-search-box .mdl-textfield__expandable-holder {
+        width: 100%;
+    }
+    .travel-create-character {
+        padding-top: 200px;
+        font-size: 16px;
+    }
+    .travel-create-character img {
+        height: 12px;
+    }
+    .travel-fab {
+        display: none;
+    }
+    .travel-contact-band-text {
+        margin-left: 0;
+        padding: 16px;
+    }
+    .travel-footer .mdl-mega-footer--bottom-section {
+        display: none;
+    }
+}
